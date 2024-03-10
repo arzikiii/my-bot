@@ -4,8 +4,10 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
+    "@grammyjs/menu": "^1.2.1",
     "@typescript/analyze-trace": "^0.10.1",
     "dotenv": "^16.4.5",
-    "grammy": "^1.21.1"
+    "grammy": "^1.21.1",
+    "telegraf": "^4.16.3"
   }
 }
