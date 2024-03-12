@@ -1,9 +1,14 @@
 {
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx tsc"
+  },
   "devDependencies": {
     "@types/node": "^20.11.25",
     "typescript": "^5.4.2"
   },
   "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
     "@grammyjs/menu": "^1.2.1",
     "@typescript/analyze-trace": "^0.10.1",
     "dotenv": "^16.4.5",
